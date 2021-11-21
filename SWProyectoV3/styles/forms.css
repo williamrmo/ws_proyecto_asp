@@ -1,0 +1,37 @@
+
+.wrapper-form{
+    grid-area: body;
+    margin-top: 5rem;
+}
+/*
+form {
+    width: 40rem;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 1rem;
+    background: rgba(223, 223, 223, 0.9);
+}
+form h2{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 0.5rem;
+}
+
+form label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 0.5rem;
+}
+
+form input {
+    grid-column-start: 2;
+    grid-column-end: -1;
+    padding: 0.5rem;
+}
+
+form .btn-group {
+    grid-column-start: 2;
+    grid-column-end: -1;
+}*/

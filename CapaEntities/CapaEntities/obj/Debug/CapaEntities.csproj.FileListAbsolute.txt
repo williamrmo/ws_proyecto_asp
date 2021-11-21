@@ -1,0 +1,6 @@
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\bin\Debug\CapaEntities.dll
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\bin\Debug\CapaEntities.pdb
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\obj\Debug\CapaEntities.csprojAssemblyReference.cache
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\obj\Debug\CapaEntities.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\obj\Debug\CapaEntities.dll
+C:\Users\willi\Documents\GitHub\CapaEntities\CapaEntities\obj\Debug\CapaEntities.pdb
