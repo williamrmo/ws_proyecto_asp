@@ -7,18 +7,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+         <%--<link href="CSS.css" rel="stylesheet" />--%>
     
-    <%--<link href="CSS.css" rel="stylesheet" />--%>
+    </asp:ContentPlaceHolder>
     <link href="styles/layout.css" rel="stylesheet" />
     <link href="styles/table.css" rel="stylesheet" />
     <link href="styles/forms.css" rel="stylesheet" />
+   
 
 </head>
 <body>
         
-        
-
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
