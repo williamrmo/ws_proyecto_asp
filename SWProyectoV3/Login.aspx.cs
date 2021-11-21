@@ -10,7 +10,7 @@ namespace SWProyectoV3
 {
     public partial class Login : System.Web.UI.Page
     {
-        public db_class db = new db_class();
+       
 
         protected void Page_Load(object sender, EventArgs e)
         {
