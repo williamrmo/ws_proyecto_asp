@@ -117,6 +117,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EvaluacionDepartamento.aspx" />
+    <Content Include="evaluaciones.aspx" />
+    <Content Include="EvaluacionesPrincipal.aspx" />
+    <Content Include="Img\a.png" />
+    <Content Include="Img\actividades.png" />
+    <Content Include="Img\ambient.png" />
+    <Content Include="Img\b.png" />
+    <Content Include="Img\c.png" />
+    <Content Include="Img\Competente.png" />
+    <Content Include="Img\d.png" />
+    <Content Include="Img\Diestro.png" />
+    <Content Include="Img\e.png" />
+    <Content Include="Img\evaluac.jpg" />
+    <Content Include="Img\evaluacion.jpg" />
+    <Content Include="Img\Experto.png" />
+    <Content Include="Img\Imagen3.png" />
+    <Content Include="Img\Incipiente.png" />
+    <Content Include="Img\novato.png" />
+    <Content Include="Img\tiempo.jpg" />
     <Content Include="private.aspx" />
     <Content Include="styles\CSS.css" />
     <Content Include="Home.aspx" />
@@ -133,6 +152,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB\db_connection.cs" />
+    <Compile Include="EvaluacionDepartamento.aspx.cs">
+      <DependentUpon>EvaluacionDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EvaluacionDepartamento.aspx.designer.cs">
+      <DependentUpon>EvaluacionDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="evaluaciones.aspx.cs">
+      <DependentUpon>evaluaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="evaluaciones.aspx.designer.cs">
+      <DependentUpon>evaluaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluacionesPrincipal.aspx.cs">
+      <DependentUpon>EvaluacionesPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EvaluacionesPrincipal.aspx.designer.cs">
+      <DependentUpon>EvaluacionesPrincipal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,6 +193,13 @@
     </Compile>
     <Compile Include="Master_Page.Master.designer.cs">
       <DependentUpon>Master_Page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master_private.master.cs">
+      <DependentUpon>master_private.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master_private.master.designer.cs">
+      <DependentUpon>master_private.master</DependentUpon>
     </Compile>
     <Compile Include="private.aspx.cs">
       <DependentUpon>private.aspx</DependentUpon>
@@ -186,6 +233,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master_Page.Master" />
+    <Content Include="master_private.master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
