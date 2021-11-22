@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace SWProyectoV3
 {
-    public partial class _private : System.Web.UI.Page
+    public partial class EvaluacionDepartamento : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string rol = "admin";
-            if (rol == "admin")
-            {
-                //ulTest.Controls.Add(new LiteralControl(nav));
 
-            }
+        }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

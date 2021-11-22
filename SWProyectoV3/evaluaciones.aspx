@@ -21,7 +21,6 @@
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 1.5rem;
             text-align:center;
-            border:1px solid red;
         }
 </style>
     <div class="my-wrapper">
