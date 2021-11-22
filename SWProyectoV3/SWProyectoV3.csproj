@@ -120,7 +120,6 @@
     <Content Include="evaluaciones.aspx" />
     <Content Include="Periodos.aspx" />
     <Content Include="EvaluacionDepartamento.aspx" />
-    <Content Include="evaluaciones.aspx" />
     <Content Include="EvaluacionesPrincipal.aspx" />
     <Content Include="Img\a.png" />
     <Content Include="Img\actividades.png" />
@@ -138,7 +137,6 @@
     <Content Include="Img\Incipiente.png" />
     <Content Include="Img\novato.png" />
     <Content Include="Img\tiempo.jpg" />
-    <Content Include="private.aspx" />
     <Content Include="styles\CSS.css" />
     <Content Include="Home.aspx" />
     <Content Include="Img\images.jpg" />
@@ -149,7 +147,6 @@
     <Content Include="styles\layout.css" />
     <Content Include="styles\nav.css" />
     <Content Include="styles\table.css" />
-    <Content Include="revisar_eva.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -210,13 +207,6 @@
     <Compile Include="Periodos.aspx.designer.cs">
       <DependentUpon>Periodos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="private.aspx.cs">
-      <DependentUpon>private.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="private.aspx.designer.cs">
-      <DependentUpon>private.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
@@ -231,13 +221,6 @@
     </Compile>
     <Compile Include="Sobre_Nosotros.aspx.designer.cs">
       <DependentUpon>Sobre_Nosotros.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="revisar_eva.aspx.cs">
-      <DependentUpon>revisar_eva.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="revisar_eva.aspx.designer.cs">
-      <DependentUpon>revisar_eva.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -256,6 +239,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="views\shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntities\CapaEntities\CapaEntities.csproj">
+      <Project>{cb51558c-fe70-407e-adec-e13c08380fe2}</Project>
+      <Name>CapaEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

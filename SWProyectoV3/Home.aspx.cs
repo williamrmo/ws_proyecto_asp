@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CapaEntities.Entities;
 
 namespace SWProyectoV3
 {
@@ -11,6 +12,12 @@ namespace SWProyectoV3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            DependenciasE ent = new DependenciasE();
+
+            ent.id_dependencia = 1;
+            ent.descripcion = "Auditorria";
+
+           /// DB.db_connection.insertDependencias(ent);
 
         }
 

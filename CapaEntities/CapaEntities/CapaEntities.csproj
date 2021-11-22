@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\AreasE.cs" />
     <Compile Include="Entities\ComponentesE.cs" />
     <Compile Include="Entities\ComponentesXEvaluacionE.cs" />
     <Compile Include="Entities\DependenciasE.cs" />
